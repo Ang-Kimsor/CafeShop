@@ -1,7 +1,8 @@
-export { default as Home } from "./Home";
-export { default as MenuProduct } from "./MenuProduct";
-export { default as Detail } from "./Detail";
-export { default as Category } from "./CategoryDetail";
-export { default as Errorpage } from "./Errorpage";
-export { default as About } from "./About";
-export { default as Contact } from "./Contact";
+import { lazy } from "react";
+export const Home = lazy(() => import("./Home"));
+export const MenuProduct = lazy(() => import("./MenuProduct"));
+export const Detail = lazy(() => import("./Detail"));
+export const Category = lazy(() => import("./CategoryDetail"));
+export const Errorpage = lazy(() => import("./Errorpage"));
+export const About = lazy(() => import("./About"));
+export const Contact = lazy(() => import("./Contact"));

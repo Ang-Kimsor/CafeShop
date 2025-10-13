@@ -10,7 +10,7 @@ const featureCafe = ({ title, des, img, featureindex }) => {
             <img
               src={img}
               alt=""
-              className="md:w-full w-1/2 h-full object-contain"
+              className="object-contain w-1/2 h-full md:w-full"
             />
           </div>
           <div
@@ -51,7 +51,7 @@ const featureCafe = ({ title, des, img, featureindex }) => {
             <img
               src={img}
               alt=""
-              className="md:w-full w-1/2 h-full object-contain"
+              className="object-contain w-1/2 h-full md:w-full"
             />
           </div>
         </>
