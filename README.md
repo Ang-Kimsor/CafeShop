@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/Ang-Kimsor/CafeShop">
-    <img src="src/assets/logo.png" alt="Logo" width="450" height="450" />
+    <img src="src/assets/images/logo.png" alt="Logo" width="450" height="450" />
   </a>
 
   <h1 align="center">☕️ Cafe Shop ☕️</h1>
